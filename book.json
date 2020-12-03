@@ -1,0 +1,70 @@
+{
+	"title": "偕臧",
+	"author": "xmuli[偕臧] <xmulitech@gmail.com>",
+	"description": "习惯配置 && 知识积累",
+	"language": "zh-hans",
+	"root": ".",
+	"links": {
+		"sidebar": {
+			"偕臧的小站": "https://xmuli.tech"
+		}
+	},
+	"styles": {
+		"website": "styles/website.css"
+	},
+	"plugins": [
+		"-search",
+		"-sharing",
+		"summary",
+		"search-pro",
+		"edit-link",
+		"chapter-fold",
+		"expandable-chapters",
+		"splitter",
+		"page-treeview",
+		"back-to-top-button",
+		"prism",
+		"tbfed-pagefooter",
+		"copy-code-button",
+		"-donate",
+		"theme-default",
+		"advanced-emoji",
+		"todo",
+		"theme-comscore",
+		"flexible-alerts"
+	],
+	"pluginsConfig": {
+		"edit-link": {
+			"base": "https://github.com/xmuli/gitbook",
+			"label": "帮助编辑此页"
+		},
+		"page-treeview": {
+			"copyright": "Copyright &#169; aleen42",
+			"minHeaderCount": "2",
+			"minHeaderDeep": "2"
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy xmuli<偕臧> 2020",
+			"modify_label": "该文件最后修改时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"github-buttons": {
+			"repo": "xmuli/gitbook",
+			"types": [
+				"star"
+			],
+			"size": "small"
+		},
+		"donate": {
+			"wechat": "https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/20200701013449.png",
+			"alipay": "https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/20200701013332.png",
+			"title": "",
+			"button": "赏",
+			"alipayText": "支付宝打赏",
+			"wechatText": "微信打赏"
+		},
+		"theme-default": {
+			"showLevel": true
+		}
+	}
+}
